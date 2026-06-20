@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Report Card </title>
+</head>
+
+<body>
+    <header>
+    <h1> Marks of all subjects </h1>
+
+        <fieldset>
+            <legend> Subject and there marks </legend>
+            <form action="/action_page.php" oninput = "x.value=parseInt(s1.value)+parseInt(s2.value)+parseInt(s3.value)/3">
+        <label> Name: </label>
+        <input type="text" id="name" placeholder="full name"> <br><br>
+        <label> Enter Marks: </label> <br><br>
+        <select name="Subjects 1" id="subject 1">
+            <option value="Maths">Maths</option>
+            <option value="Physics">Physics</option>
+            <option value="Chemistry">Chemistry</option>
+        </select>
+        <input type="number" id="s1" mame="s1"> <br><br>
+         <select name="Subjects 2" id="subject 2"> 
+            <option value="Maths">Maths</option>
+            <option value="Physics">Physics</option>
+            <option value="Chemistry">Chemistry</option>
+        </select>
+        <input type="number" id="s2" mame="s2"> <br><br>
+         <select name="Subjects 3" id="subject 3"> 
+            <option value="Maths">Maths</option>
+            <option value="Physics">Physics</option>
+            <option value="Chemistry">Chemistry</option>
+        </select>
+        <input type="number" id="s3" mame="s3"> <br><br>
+        <label>Average:</label> 
+        <output name="x" for="s1 s2 s3"></output> <br><br>
+        <input type="submit"/>
+        </form>
+        </fieldset>
+     
