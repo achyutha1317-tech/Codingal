@@ -1,0 +1,27 @@
+body{
+background-color: darkblue;
+background-image: linear-gradient(to bottom, darkblue, navy);
+background-repeat: no-repeat;
+background-position: top center;
+font-family: Arial, sans-serif;
+}
+
+.header{
+background-image: linear-gradient(to right, purple, coral);
+border-radius: 16px;
+text-align: center;
+color: white;
+}
+
+.bulb{
+width: 70px;
+height: 70px;
+background-color: red;
+border-radius: 50%;
+animation: glow 2s infinite alternate;
+}
+
+@keyframes glow{
+from{background-color: yellow;}
+to{background-color: white;}
+}
