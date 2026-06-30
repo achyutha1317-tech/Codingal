@@ -1,0 +1,40 @@
+body{
+background-color: lightgray;
+font-size: 23px;
+}
+
+h1{
+color: yellow;
+font-size: 65px;
+font-weight: bold;
+text-shadow: 3px 3px orange;
+}
+
+.tagline{
+font-style: italic;
+color:coral;
+text-transform: uppercase;
+}
+
+h2{
+text-transform: uppercase;
+color: green;
+text-decoration: underline;
+}
+
+.power{
+color: greenyellow;
+font-weight: bold;
+}
+
+.weekness{
+text-decoration: line-through;
+color: yellowgreen;
+}
+
+#badge{
+font-weight: bold;
+font-size: 50px;
+color: brown;
+transform: rotate(5deg);
+}
