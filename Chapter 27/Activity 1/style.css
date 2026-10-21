@@ -1,0 +1,30 @@
+#social{
+    background: #2f3550;
+}
+
+.head{
+font-weight: 600;
+margin-top: 5px;
+}
+
+.row.pt-4{
+gap: 18px;
+}
+
+.media-link-btn{
+border: 2px solid #f2a900;
+border-radius: 5px;
+padding: 13px 16px;
+margin-right: 17px;
+background: transparent;
+text-align: left;
+}
+
+.media-link h3{
+font-size: 15px;
+font-weight: 500;
+}
+
+.media-link i{
+font-size: 20px;
+}

@@ -1,0 +1,24 @@
+body{
+background-color: #f9f9f9;
+font-family: Arial, sans-serif;
+padding: 30px 20px;
+}
+
+h1{
+text-align: center;
+color: #ff5a43;
+}
+
+.hobby{
+text-align: center;
+border: 2px solid #ff5a43;
+border-radius: 7px;
+padding: 20px;
+margin-bottom: 20px;
+background-color: #fff8e1;
+}
+
+.hobby h3{
+color: #ff5a43;
+}
+

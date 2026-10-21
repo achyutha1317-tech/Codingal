@@ -1,0 +1,37 @@
+body{
+position: relative;
+}
+
+.safari-slide{
+height: 200px;
+text-align: center;
+padding: 80px;
+font-size: 1.8rem;
+color: white;
+}
+
+.section{
+padding: 73px 22px;
+min-height: 320px;
+}
+
+.slide-forest{
+background-color: darkgreen;
+}
+.slide-ocean{
+background-color: steelblue;
+}
+
+.slide-desert{
+background-color: gold;
+}
+
+#forest{
+background-color: honeydew;
+}
+#ocean{
+background-color: aliceblue;
+}
+#desert{
+background-color: lightyellow;
+}

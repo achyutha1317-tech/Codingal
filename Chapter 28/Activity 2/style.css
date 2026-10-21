@@ -1,0 +1,48 @@
+body{
+background: rgb(0, 0, 0);
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.cont{
+width: 900px;
+height: 500px;
+background-image: linear-gradient(rgba(0,  0, 0.6),rgb(0,0,0,0.6)), url(./1.avif.jpg);
+margin: 20px auto;
+}
+
+.cal{
+width: 300px;
+height: 500px;
+background-color: yellowgreen;
+margin: 0 auto;
+top: 20px;
+position: relative;
+border-radius: 5px;
+}
+
+.out{
+    height: 100px;
+}
+
+.keyboard{
+height: 400px;
+}
+
+.op, .num, .emp{
+width: 45px;
+height: 45px;
+border-radius: 50%;
+border-width: 0;
+font-weight: bold;
+font-size: 13px;
+margin: 13px;
+float: left;
+}
+
+.op, .num{
+cursor: pointer;
+}
+
+.op.active, .num.active{
+font-size: 20px;
+}

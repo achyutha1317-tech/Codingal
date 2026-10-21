@@ -1,0 +1,40 @@
+html{
+scroll-behavior: smooth;
+}
+
+body{
+background: #252525;
+font-family: "Baloo Tamma 2", cursive;
+}
+
+.m-heading{
+font-family: "Roboto Slab", serif;
+}
+
+.main-container{
+height: 100vh;
+display: flex;
+flex-direction: column;
+align-itmes: center;
+background-image: url('https://github.com/harshacc031-dot/img/blob/main/1.png?raw=true');
+background-attachment: fixed;
+background-size: cover; 
+}
+
+.mian_row{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.main_row h1{
+font-size: 5rem;
+}
+
+.main_row img{
+width: auto;
+height: 100vh;
+}
+
+
+

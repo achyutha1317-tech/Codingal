@@ -1,0 +1,28 @@
+body{
+background-color: #f4fff4;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.jumbotron{
+background-color: #e6f9ec;
+border-left: 6px solid #ff5a43;
+}
+
+.jumbotron h1{
+color: #ff5a43;
+}
+
+button{
+margin-right: 15.5rem;
+}
+
+p{
+font-weight: bold;
+margin-bottom: 5px;
+}
+
+.section-title{
+color: #ff5a43;
+margin-top: 30px;
+margin-bottom: 18px;
+}
